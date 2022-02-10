@@ -10,7 +10,14 @@ ulEl.innerHTML = `
 console.log(ulEl.nodeName + ' (before)', ulEl.cloneNode(true));
 
 // --- write some code ---
-
+const child1 = ulEl.children[0];
+child1.innerHTML = 'toad';
+const child2 = ulEl.children[1];
+const newChildLi = document.createElement('li');
+newChildLi.innerHTML='frog';
+ulEl.replaceChild(newChildLi, child2);
+const child4 = ulEl.children[3];
+ulEl.removeChild(child4);
 // --- --- --- --- --- ---
 
 console.log(ulEl.nodeName + ' (after)', ulEl.cloneNode(true));

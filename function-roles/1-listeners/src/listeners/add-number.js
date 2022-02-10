@@ -1,4 +1,4 @@
-import { data } from '../../../data.js';
+giimport { data } from '../../../data.js';
 
 export const addNumberListener = (id = '') => {
   document.getElementById(id).addEventListener('change', (event) => {

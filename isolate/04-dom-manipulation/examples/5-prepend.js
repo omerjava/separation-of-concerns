@@ -2,7 +2,8 @@
 
 /* .prepend()
 
-  You can insert elements tags before the first element child, and also insert text at the beginning of the element text 
+  You can insert elements tags before the first element child, and also insert text at the beginning 
+  of the element text 
 
 */
 

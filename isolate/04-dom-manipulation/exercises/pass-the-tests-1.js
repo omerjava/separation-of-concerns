@@ -9,6 +9,20 @@ divEl.innerHTML = `
 console.log(divEl.nodeName + ' (before)', divEl.cloneNode(true));
 
 // --- write some code ---
+const para1=divEl.children[0];
+const section1=divEl.children[1];
+const header1=divEl.children[2];
+
+const navigation=document.createElement('nav');
+divEl.appendChild(navigation);
+const header2=document.createElement('h2');
+const para2=document.createElement('p');
+
+
+divEl.replaceChild(navigation,para1);
+divEl.insertBefore(header2, section1);
+divEl.removeChild(header1);
+divEl.append(para2);
 //  replace the <p>
 //  insert something before the <section>
 //  remove the <h1>
