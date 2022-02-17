@@ -21,7 +21,7 @@
   "devDependencies": {
     "dependency-cruiser": "^10.0.6",
     "graphviz-cli": "^1.0.0",
-    "jest": "^27.0.6",
+    "jest": "^27.5.1",
     "misc-utils-of-mine-typescript": "0.0.12",
     "prettier": "^2.3.2"
   }
